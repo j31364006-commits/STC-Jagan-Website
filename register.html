@@ -25,6 +25,15 @@
         input {
             background-color: aliceblue;
         }
+
+        .class {
+            background-color: aliceblue;
+        }
+
+        .v {
+            display: flex;
+            justify-self: center;
+        }
     </style>
     <form>
         <SEction>
@@ -32,26 +41,58 @@
                 ENTER YOUR NAME:
                 <input type="text" name="" id="">
             </div>
+            <br>
             <div>
-                <mark>
-                    ENTER YUOR GENDER:
-                </mark>
-            </div>
-            <div>
+                ENTER YOUR GENDER:
                 <input type="radio" id="male" name="gender">
                 <label for="male">male</label>
                 <input type="radio" id="female" name="gender">
                 <label for="female">female</label>
             </div>
+            <br>
             <div>
-                <select name="class" id="class">
-                     <option value="class ">class 6</option>
+                <h2>SELECT YOUR CLASS</h2>
+                <select class="class" name="class" id="class">
+                    <option value="class ">class 6</option>
                     <option value="class 7">class 7</option>
                     <option value="class 8">class 8</option>
                     <option value="class 9">class 9</option>
                     <option value="class 10">class 10</option>
                 </select>
-               
+            </div>
+
+            <section>
+                <div>
+                    <input type="checkbox" name="to know" id="information">
+                    <label for="information">please make sure that you are interested</label>
+                </div>
+            </section>
+            <div>
+                <h1>TO REGISTER WE REQURIE SOME INFORMATION</h1>
+            </div>
+            <div>
+                <h2>ENTER YOUR LAST YEARS SUBJECT MARKS</h2>
+            </div>
+            <div>
+                <label for="/">enter your science marks:</label>
+                <input type="number" name="" id="/">
+            </div>
+            <br>
+            <div>
+                <label for="p">enter your maths marks:</label>
+                <input type="number" id="p">
+            </div>
+            <br>
+            <div>
+                <label for="c">enter your kannada marks:</label>
+                <input type="number" id="c">
+            </div>
+            <br>
+            <div>
+                <button class="v">
+                    <label for="v">you can also submit in a application form</label>
+                    <a href="" id="v"></a>
+                </button>
             </div>
         </SECtion>
     </form>
