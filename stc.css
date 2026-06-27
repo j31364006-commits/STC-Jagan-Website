@@ -92,5 +92,10 @@ input {
     border: 2px solid black;
     box-shadow: 3px 3px 5px black;
 }
-
+.register{
+    display: flex;
+    justify-self: center;
+    border-radius:10px;
+    font-size:25px;
+}
 
