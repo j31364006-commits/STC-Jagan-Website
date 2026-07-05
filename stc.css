@@ -1,6 +1,10 @@
 * {
     background-color: white;
 }
+.image{
+    height: 100px;
+    width: 100px;
+}
 .body{
     
     padding-left: 300px;
