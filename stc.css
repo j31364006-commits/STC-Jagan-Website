@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(99, 220, 7);
+    background-color:white;
 }
 .img{
     width: 500px;
@@ -56,4 +56,7 @@
     width: 40px;
     background-color: blueviolet;
     box-shadow:4px 5px 5px #0c0c0c;
+}
+.register{
+    border: 5px black;
 }
