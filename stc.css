@@ -1,5 +1,5 @@
 *{
-    background-color:tomato;
+    background-color:burlywood;
 }
 .img{
     width: 500px;
@@ -9,6 +9,15 @@
     text-shadow:5px 5px 7px black;
     padding-left:170px;
     
+}
+.title{
+    font-size:35px;
+    text-shadow:5px 5px 7px black;
+}
+.h2{
+    font-size:35px;
+    text-shadow:5px 5px 7px black;
+    padding-left: 350px;
 }
 .search-container {
   position: relative;
