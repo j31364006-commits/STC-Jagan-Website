@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login</title>
 </head>
+
 <body>
 	<div class="login-box">
 		<h1 class="head">Login</h1>
 		<form>
 			<label for="email">Email</label>
-            <br>
 			<input type="email" id="email" name="email" required>
-            <br>
+			<br>
 			<label for="password">Password</label>
-            <br>
 			<input type="password" id="password" name="password" required>
-            <br>
+			<label for="radio">remember</label>
+		    <input type="radio">
+			<a id="a" href="">for got pasword ?</a>
+			<br>
 			<button type="submit">Login</button>
 		</form>
 	</div>
-    <style>
+	<style>
 		body {
 			min-height: 100vh;
 			margin: 0;
@@ -28,21 +31,31 @@
 			justify-content: center;
 			align-items: center;
 		}
-		.login-box{
+
+		.login-box {
 			border: 1px solid black;
-            border-radius: 12px;
-            border-width: 2px;
+			border-radius: 12px;
+			border-width: 2px;
 			box-shadow: 10px 10px 12px black;
-            padding: 30px;
-            width: 320px;
-        }
-        form{
-            display: flex;
-            flex-direction: column;
-        }
-        .head{
-            text-align: center;
-        }
-    </style>
+			padding: 30px;
+			width: 320px;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.head {
+			text-align: center;
+		}
+
+		#a {
+			color: blue;
+			text-decoration: none;
+		}
+		
+	</style>
 </body>
+
 </html>
