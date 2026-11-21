@@ -132,7 +132,7 @@ h2 {
 
 .mono {
     font-family: var(--mono);
-    font-size: 10px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .2em
 }
@@ -186,7 +186,6 @@ body[data-view=register] .view[data-v=home] {
     display: none
 }
 
-/* nav */
 nav {
     position: fixed;
     top: env(safe-area-inset-top, 0px);
@@ -228,6 +227,10 @@ nav .wide {
     font-size: 1.25rem
 }
 
+.ltext{
+    font-size:15px;
+    
+}
 .lg {
     display: block;
     width: 46px;
@@ -332,12 +335,9 @@ nav .btn {
 }
 
 .badge {
-    display: inline-flex;
     align-items: center;
     gap: 10px;
     padding: 8px 18px;
-    border: 1px solid var(--bd);
-    border-radius: 999px;
     background: var(--card);
     color: var(--sky)
 }
@@ -554,18 +554,6 @@ nav .btn {
     border-color: rgba(139, 92, 246, .6);
     box-shadow: 0 0 40px rgba(139, 92, 246, .22);
     transform: translateY(-6px)
-}
-
-.ico {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 1.1rem;
-    display: grid;
-    place-items: center;
-    font-size: 1.5rem;
-    background: linear-gradient(135deg, rgba(14, 165, 233, .15), rgba(139, 92, 246, .15));
-    border: 1px solid rgba(139, 92, 246, .2);
-    margin-bottom: 24px
 }
 
 .panel h3 {
